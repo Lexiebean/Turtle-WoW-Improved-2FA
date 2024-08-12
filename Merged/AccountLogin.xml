@@ -765,8 +765,12 @@
 									</EdgeSize>
 								</Backdrop>
 								<Scripts>
+									<OnShow>
+										VirtualKeypadText:SetFocus();
+									</OnShow>
 									<OnEscapePressed>
-										AccountLogin_Exit();
+										this:GetParent():Hide();
+										StatusDialogClick();
 									</OnEscapePressed>
 									<OnEnterPressed>
 										VirtualKeypadOkayButton_OnClick();
