@@ -199,6 +199,7 @@ end
 function VirtualKeypadOkayButton_OnClick()
 	local PIN = VirtualKeypadText:GetNumber();
 	local numNumbers = strlen(PIN);
+	if numNumbers < 6 then return end
 	local pinNumber = {};
 	for i=1, MAX_PIN_LENGTH do
 		if ( i <= numNumbers ) then
