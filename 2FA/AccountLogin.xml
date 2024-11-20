@@ -204,7 +204,7 @@
 						<Anchors>
 							<Anchor point="TOP">
 								<Offset>
-									<AbsDimension x="8" y="-519"/>
+									<AbsDimension x="11" y="-519"/>
 								</Offset>
 							</Anchor>
 						</Anchors>
